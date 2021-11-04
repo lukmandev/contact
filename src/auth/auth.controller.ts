@@ -18,6 +18,6 @@ export class AuthController {
     vCard.note = 'Notes on Eric';
     res.set('Content-Type', 'text/vcard; name="enesser.vcf"');
     res.set('Content-Disposition', 'inline; filename="enesser.vcf"');
-    res.send(vCard.getFormattedString());
+    return res.send(vCard.getFormattedString());
   }
 }
