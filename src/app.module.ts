@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
-import AdminBro from 'admin-bro';
-import { Database, Resource } from '@admin-bro/sequelize';
-import { AdminModule } from '@admin-bro/nestjs';
+// import AdminBro from 'admin-bro';
+// import { Database, Resource } from '@admin-bro/sequelize';
+// import { AdminModule } from '@admin-bro/nestjs';
 import { ConfigModule } from "@nestjs/config";
 import { ServeStaticModule } from "@nestjs/serve-static";
 import * as path from "path";
