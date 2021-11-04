@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Lukman Full Stack Developer Muhamat uulu
+N;CHARSET=UTF-8:Muhamat uulu;Lukman;Full Stack Developer;;
+BDAY:19850101
+PHOTO;TYPE=JPEG:https://avatars2.githubusercontent.com/u/5659221?v=3&s=460
+TEL;TYPE=WORK,VOICE:312-555-1212
+TITLE;CHARSET=UTF-8:Full Stack Developer
+ORG;CHARSET=UTF-8:Motionweb Corporation
+URL;CHARSET=UTF-8:https://github.com/lukman-wp
+NOTE;CHARSET=UTF-8:Notes on Eric
+REV:2021-11-04T17:01:52.525Z
+END:VCARD
