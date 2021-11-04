@@ -15,23 +15,23 @@ AdminBro.registerAdapter({ Database, Resource });
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      envFilePath: `.${process.env.NODE_ENV}.env`
-    }),
+    // ConfigModule.forRoot({
+    //   envFilePath: `.${process.env.NODE_ENV}.env`
+    // }),
     ServeStaticModule.forRoot({
       rootPath: path.resolve( __dirname, 'static'),
     }),
-    SequelizeModule.forRoot({
-      dialect: 'postgres',
-      host: "localhost",
-      port: 5432,
-      username: "postgres",
-      password: "",
-      database: "education-app",
-      models: [User],
-      autoLoadModels: true,
-      synchronize: true,
-    }),
+    // SequelizeModule.forRoot({
+    //   dialect: 'postgres',
+    //   host: "localhost",
+    //   port: 5432,
+    //   username: "postgres",
+    //   password: "",
+    //   database: "education-app",
+    //   models: [User],
+    //   autoLoadModels: true,
+    //   synchronize: true,
+    // }),
     AuthModule,
   ],
   controllers: [],
