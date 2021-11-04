@@ -11,16 +11,16 @@ import { AuthModule } from './auth/auth.module';
 import { User } from "./models/user";
 
 
-AdminBro.registerAdapter({ Database, Resource });
+// AdminBro.registerAdapter({ Database, Resource });
 
 @Module({
   imports: [
     // ConfigModule.forRoot({
     //   envFilePath: `.${process.env.NODE_ENV}.env`
     // }),
-    ServeStaticModule.forRoot({
-      rootPath: path.resolve( __dirname, 'static'),
-    }),
+    // ServeStaticModule.forRoot({
+    //   rootPath: path.resolve( __dirname, 'static'),
+    // }),
     // SequelizeModule.forRoot({
     //   dialect: 'postgres',
     //   host: "localhost",
